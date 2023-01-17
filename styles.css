@@ -181,6 +181,7 @@ h1 {
     }
     .clients {
         margin: 0 auto;
+        gap: 1em;
     }
     .clients img {
         width: 70px;

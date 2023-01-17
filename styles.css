@@ -188,6 +188,7 @@ main {
 .secondary-menu-mobile button {
     background-color: #fff;
     cursor: pointer;
+    color: var(--almostblack);
 }
 
 .mobile-menu .sub-link {

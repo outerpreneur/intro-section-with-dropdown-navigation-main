@@ -190,6 +190,10 @@ main {
     cursor: pointer;
 }
 
+.mobile-menu .sub-link {
+    display: none;
+}
+
 
 /* section 1 */
 

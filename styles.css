@@ -209,11 +209,19 @@ main {
     color: var(--almostblack);
 }
 
-.mobile-menu .sub-link {
+.sub-menu-1-mobile {
     display: none;
 }
 
-.mobile-menu .sub-link.open {
+.sub-menu-1-mobile.open {
+    display: block;
+}
+
+.sub-menu-2-mobile {
+    display: none;
+}
+
+.sub-menu-2-mobile.open {
     display: block;
 }
 

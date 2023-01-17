@@ -11,8 +11,13 @@ const closeMenu = document.querySelector('.close-menu')
 
 const menuOpenMobile = document.querySelector('.icon-menu-mobile')
 
-const featuresMobiletag = document.querySelector('.features-mobile')
-const subMenuMobile1 = document.querySelector('.mobile-menu .sub-link ')
+const featuresMobileTag = document.querySelector('.features-mobile')
+const subMenuMobile1 = document.querySelector('.sub-menu-1-mobile')
+
+const companyMobileTag = document.querySelector('.company-mobile')
+const subMenuMobile2 = document.querySelector('.sub-menu-2-mobile')
+
+const bodyTag = document.querySelector("body")
 
 
 
@@ -35,7 +40,12 @@ closeMenu.addEventListener('click', () => {
     mobileMenu.style.display = 'none'
 })
 
-featuresMobiletag.addEventListener('click', () => {
+featuresMobileTag.addEventListener('click', () => {
     console.log("it works")
-    subMenuMobile1.toggle('open')
+    subMenuMobile1.classList.toggle('open')
+})
+
+companyMobileTag.addEventListener('click', () => {
+    console.log("it works2")
+    subMenuMobile2.classList.toggle('open')
 })

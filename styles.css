@@ -178,6 +178,10 @@ h1 {
     .clients {
         margin: 0 auto;
     }
+    footer {
+        position: fixed;
+        bottom: 0;
+    }
 }
 
 /* reset */

@@ -178,6 +178,9 @@ h1 {
     .clients {
         margin: 0 auto;
     }
+    .clients img {
+        width: 20%;
+    }
     footer {
         position: fixed;
         bottom: 0;

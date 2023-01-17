@@ -142,7 +142,7 @@ main {
     color: var(--almostblack);
     display: flex;
     flex-direction: column;
-    font-size: 20px;
+    font-size: 16px;
     padding: 1em 0
 }
 

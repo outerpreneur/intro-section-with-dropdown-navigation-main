@@ -109,6 +109,11 @@ main {
     cursor: pointer;
 }
 
+.dropdown.open {
+    display: block;
+    transition: 5s ease display;
+}
+
 .sub-menu-1 {
     background-color: white;
     position: absolute;
@@ -117,7 +122,6 @@ main {
     border-radius: 15px;
     transform: translateX(-80px);
     display: none;
-
 }
 
 .sub-menu-2 {
@@ -128,6 +132,8 @@ main {
     border-radius: 15px;
     display: none;
 }
+
+
 
 /* mobile menu */
 
@@ -143,12 +149,24 @@ main {
     display: flex;
     flex-direction: column;
     font-size: 18px;
-    padding: 1em 0
+    padding: 1em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .mobile-menu ul {
     margin: auto 0;
+    margin-top: 10em;
     width: 90%;
+}
+
+.close-menu {
+    position: absolute;
+    right:0;
+    top: 0;
+    padding: 1em;
+    cursor: pointer;
 }
 
 .mobile-menu p {
@@ -195,7 +213,19 @@ main {
     display: none;
 }
 
+.mobile-menu .sub-link.open {
+    display: block;
+}
+
 .mobile-menu {
+    display: none;
+}
+
+.menu-open {
+    display: block;
+}
+
+.icon-menu-mobile {
     display: none;
 }
 
@@ -259,8 +289,9 @@ h1 {
         display: none;
     }
 
-    .icon-menu {
+    .icon-menu-mobile {
         display: block;
+        cursor: pointer;
     }
 
     .section1 {

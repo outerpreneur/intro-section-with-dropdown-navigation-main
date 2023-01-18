@@ -60,6 +60,7 @@ nav li {
 button {
     background-color: var(--almostwhite);
     cursor: pointer;
+    color: var(--almostblack);
 }
 
 .secondary-menu button:hover {
@@ -87,6 +88,11 @@ main {
     margin: 0 auto;
     height: 75vh;
     gap: 10em;
+}
+
+.section1 button:hover {
+    background-color: var(--almostblack);
+    color: #fff;
 }
 
 /* sublinks */
@@ -170,8 +176,11 @@ main {
 }
 
 .mobile-menu p {
-    margin-bottom: 0.3em;
     cursor: pointer;
+}
+
+.mobile-menu .link {
+    margin-bottom: 1em;
 }
 
 .mobile-menu li {
@@ -231,10 +240,16 @@ main {
 
 .menu-open {
     display: block;
+    transition: 1s;
 }
 
 .icon-menu-mobile {
     display: none;
+}
+
+.active-arrow {
+    transform: rotate(180deg) ;
+    transition: 0.3s;
 }
 
 .overflow {
@@ -246,6 +261,7 @@ main {
     left: 0;
     width: 30%;
     opacity: 0.7;
+    transition: 1s;
   }
 
 /* section 1 */

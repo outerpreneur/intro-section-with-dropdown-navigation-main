@@ -240,7 +240,7 @@ main {
 
 .menu-open {
     display: block;
-    transition: 1s;
+    transition: display 1s;
 }
 
 .icon-menu-mobile {
@@ -261,7 +261,7 @@ main {
     left: 0;
     width: 30%;
     opacity: 0.7;
-    transition: 1s;
+    transition: display 1s;
   }
 
 /* section 1 */

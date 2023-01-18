@@ -143,7 +143,7 @@ main {
     top: 0;
     height: 100%;
     background-color: #fff;
-    width: 300px;
+    width: 70%;
     z-index: 1;
     color: var(--almostblack);
     display: flex;
@@ -156,8 +156,8 @@ main {
 }
 
 .mobile-menu ul {
-    margin: auto 0;
-    margin-top: 4em;
+    margin-top: auto !important;
+    margin-bottom: auto !important;
     width: 90%;
 }
 
@@ -236,6 +236,17 @@ main {
 .icon-menu-mobile {
     display: none;
 }
+
+.overflow {
+    background-color: black;
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 30%;
+    opacity: 0.7;
+  }
 
 /* section 1 */
 

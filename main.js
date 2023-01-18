@@ -10,6 +10,7 @@ const mobileMenu = document.querySelector('.mobile-menu')
 const closeMenu = document.querySelector('.close-menu')
 
 const menuOpenMobile = document.querySelector('.icon-menu-mobile')
+const overflowTag = document.querySelector('.overflow')
 
 const featuresMobileTag = document.querySelector('.features-mobile')
 const subMenuMobile1 = document.querySelector('.sub-menu-1-mobile')
@@ -22,30 +23,33 @@ const bodyTag = document.querySelector("body")
 
 
 featuresTag.addEventListener("click", () => {
-    console.log("you clicked")
+    console.log("you clicked on features tag")
     subMenu1.classList.toggle('open')
 })
 
 companyTag.addEventListener('click', () => {
-    console.log("you clicked")
+    console.log("you clicked on company tag")
     subMenu2.classList.toggle('open')
 })
 
 menuOpenMobile.addEventListener('click', () => {
     console.log("you clicked on mobile menu")
     mobileMenu.style.display = 'block'
+    overflowTag.style.display = 'block'
 })
 
 closeMenu.addEventListener('click', () => {
+    console.log("you closed mobile menu")
     mobileMenu.style.display = 'none'
+    overflowTag.style.display = 'none'
 })
 
 featuresMobileTag.addEventListener('click', () => {
-    console.log("it works")
+    console.log("you deployed menu1")
     subMenuMobile1.classList.toggle('open')
 })
 
 companyMobileTag.addEventListener('click', () => {
-    console.log("it works2")
+    console.log("You deoployed menu2")
     subMenuMobile2.classList.toggle('open')
 })

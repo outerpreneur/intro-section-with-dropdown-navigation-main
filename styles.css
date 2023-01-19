@@ -16,7 +16,7 @@ body {
 }
 
 .viewport {
-    height: 100vh;
+    min-height: 100vh;
 }
 
 /* header */
@@ -88,6 +88,10 @@ main {
     margin: 0 auto;
     height: 75vh;
     gap: 10em;
+}
+
+.section1 p {
+    color: var(--mediumgray);
 }
 
 .section1 button:hover {
